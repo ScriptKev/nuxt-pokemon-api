@@ -1,7 +1,13 @@
 <template>
-  <div class="index">
-    <h1>Hola Mundo</h1>
-    <h6>{{ API }}</h6>
+  <div class="container">
+    <h1 class="title is-1">List of pokemons</h1>
+    <card-pokemon :data="results"/>
+    <div class="columns is-centered">
+      <div class="column is-two-fifths">
+          <a class="button is-rounded is-info">Previous</a>
+          <a class="button is-rounded is-info">Next</a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -13,9 +19,13 @@
 * @author efrenmartinez
 * @copyright 2019.
 */
+import CardPokemon from '~/components/CardPokemon.vue'
 import axios from 'axios'
 export default {
   name: "index",
+  components: {
+    CardPokemon
+  },
   data() {
     return {
       API: process.env.API_URL,
