@@ -34,8 +34,7 @@ export default {
   name: "CardPokemon",
   props: {
     data: {
-      type: Array,
-      default: Array
+      type: Array
     }
   }
 };

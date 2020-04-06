@@ -1,7 +1,7 @@
 {
   "name": "workshop-nuxt",
   "version": "1.0.0",
-  "description": "Workshop Nuxt.js codigofacilito",
+  "description": "Taller de Nuxt de CodigoFacilito",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nuxt"
@@ -9,8 +9,8 @@
   "author": "efrenmartinez <developer.emartinez@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
-    "bulma": "^0.7.4",
-    "nuxt": "^2.7.1"
+    "axios": "^0.18.1",
+    "bulma": "^0.7.5",
+    "nuxt": "^2.12.2"
   }
 }
